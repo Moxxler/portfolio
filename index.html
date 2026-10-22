@@ -4,44 +4,41 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width", initial-scale=1.0">
   <title>Moxxler Engineering</title>
-  <style>
-    body {
-      font-family: ui-monospace, SFMono-Regular, SF Pro Mono, Menlo, Monaco, Consolas, monospace;
-      background-color: rgb(1, 21, 47);
-      color: rgb(51, 51, 51);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
-    .container {
-      max-width: 600px;
-      padding: 40px;
-      background: rgb(1, 21, 47);
-      border-radius: 8px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-    }
-    h1 {
-      color: rgb(250, 250, 250);
-      margin-bottom: 10px;
-      font-size: 1.2rem;
-    }
-    p {
-      font-size: 1.2rem;
-      color: rgb(250, 250, 250);
-      padding: 6px 12px;
-      border-radius: 20px;
-      font-size: 0.9rem;
-      font-weight: bold;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Renewable energy & power grid simulations</h1>
-    <p>coming soon...</p>
+  <div id="page_title">
+    <h1>RENEWABLE ENERGY & POWER GRID SIMULATIONS</h1>
   </div>
+
+  <section id="project_nav">
+    <div class="container">
+      <a href="SolarParkSimulation/index.html" target="_self">
+        <span class="btn">
+          <p>
+            Solarpark Simulation
+          </p>
+        </span>
+      </a>
+      <p class="description">
+        Simulating east-west single axis solar trackers by calculating their yearly yield accurate to the minute through the
+        use of vectors, rotation matrices, and Test Reference Year data measured in Hamburg, Germany. Programmed in C.
+      </p>
+      <br>
+      <a href="PandaPowerGridInjection/index.html" target="_self">
+        <span class="btn">
+          <p>
+            PandaPower Grid Injection
+          </p>
+        </span>
+      </a>
+      <p class="description">
+        Simulating the injection of the simulated solarpark into the pre-assembled german MV-Oberrhein grid using
+        PandaPower to inspect line loading and bus voltages on peak generation days. Programmed in Python.
+      </p>
+    </div>
+  </section>
 </body>
 </html>
