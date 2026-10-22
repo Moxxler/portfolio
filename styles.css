@@ -1,0 +1,66 @@
+/*----------- MAIN PAGE -----------*/
+
+#page_title {
+    padding: 15px;
+    margin: 15px 20px 20px 15px;
+    background-color: rgb(1, 15, 34);
+    box-shadow: 5px 5px rgba(251, 143, 143, 0.7);
+    /*background-color: rgb(137, 21, 47);*/
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.28rem;
+    
+}
+#page_title h1 {
+    color: rgb(250, 250, 250);
+}
+body {
+    font-family: ui-monospace, SFMono-Regular, SF Pro Mono, Menlo, Monaco, Consolas, monospace;
+    background-color: rgb(1, 21, 47);
+    /*color: rgb(51, 51, 51);*/
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    width: 50vw;
+    height: 50vh;
+    padding-top: 15px;
+    margin-top: 50px;
+    background-color: rgb(1, 15, 34);
+    box-shadow: 5px 5px rgba(251, 143, 143, 0.7);
+    border-radius: 50px;
+    text-align: center;
+}
+#project_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p {
+    font-size: 1.2rem;
+    color: rgb(250, 250, 250);
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+.btn {
+    padding: 7px 15px;
+    margin: 15px;
+    border: none;
+    background-color: rgb(23, 104, 162);
+    box-shadow: 3px 3px rgba(251, 143, 143, 0.7);
+    border-radius: 15px;
+    color: rgb(250, 250, 250);
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+.btn:hover {
+    background-color: brown;
+}
+.description {
+    padding: 0px 15px 0px 15px;
+}
